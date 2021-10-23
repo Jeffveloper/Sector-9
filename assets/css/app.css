@@ -179,14 +179,14 @@ main {
   max-height: 150rem;
   position: absolute;
   z-index: 2;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 27%, #0b1d26 78%), url(/assets/img/background.webp);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 27%, #0b1d26 78%), url(../img/background.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 @media (min-width: 1040px) {
   .bg_cont {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 47%, #0b1d26 99%), url(/assets/img/background.webp);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 47%, #0b1d26 99%), url(../img/background.webp);
     height: 200vh;
     background-size: cover;
   }
