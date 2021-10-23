@@ -1,0 +1,81 @@
+@use './variables' as v;
+
+// fuentes
+
+.headline-1{
+    font: v.$m-headline-1 v.$fuenteBase;
+}
+.headline-2{
+    font: v.$m-headline-2 v.$fuenteBase;
+}
+.headline-3{
+    font: v.$m-headline-3 v.$fuenteBase;
+}
+.body-bold{
+    font: v.$m-body-bold v.$fuenteBase;
+}
+.body-medium{
+    font: v.$m-body-medium v.$fuenteBase;
+}
+.body-regular{
+    font: v.$m-body-regular v.$fuenteBase;
+}
+.button{
+    font: v.$m-button v.$fuenteBase;
+}
+@media (min-width: 1040px){
+    .headline-1{
+        font: v.$headline-1 v.$fuenteBase;
+    }
+    .headline-2{
+        font: v.$headline-2 v.$fuenteBase;
+    }
+    .headline-3{
+        font: v.$headline-3 v.$fuenteBase;
+    }
+    .body-bold{
+        font: v.$body-bold v.$fuenteBase;
+    }
+    .body-medium{
+        font: v.$body-medium v.$fuenteBase;
+    }
+    .body-regular{
+        font: v.$body-regular v.$fuenteBase;
+    }
+    .button{
+        font: v.$button v.$fuenteBase;
+    }    
+}
+
+// generales
+
+a{
+    text-decoration: none;
+    color: v.$negro;
+}
+.c_negro{
+    color: v.$fondo1;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.t-centrado{
+    text-align: center;
+}
+.sec-img{
+    max-width: 100%;
+}
+.barra_lateral{
+    width: 7.2rem;
+    height: .2rem;
+    background-color: v.$color1;
+    margin-bottom: 3rem;
+}
+.scale-1{
+    transition: .5s ease;
+    &:hover{
+        transform: scale(1.2, 1.2);
+    }
+}

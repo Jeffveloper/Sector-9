@@ -1,0 +1,64 @@
+@use 'base' as v;
+
+main{
+    position: relative;
+    z-index: 3;
+    padding: 2.4rem;
+}
+.main_wrapper{
+    max-width: 37rem;
+    margin: 0 auto;
+}
+.logo_cont{
+    display: grid;
+    gap: 1rem;
+    justify-content:flex-start;
+    a{
+        display: grid;
+        justify-content: center;
+    }
+}
+.col_1,.col_3{
+    display: none;
+}
+.sc-ul{
+    padding: 0;
+    text-align: right;
+}
+.sc-li{
+    a{
+        display: block;
+        padding-right: 1rem;
+        border-right: solid .3rem v.$color3;
+        padding: 1.6rem 2rem 1.6rem 0;
+        &:hover{
+            transition: 1s ease;
+            border-right: solid .7rem v.$fondo1;
+        }
+    }
+}
+@media (min-width: 768px){
+    .main_content{
+        display: grid;
+        grid-template-columns: 7.8rem auto 7.8rem;
+        gap: 2rem;
+    }
+    .col_1,.col_3{
+        display: block;
+    }
+    .main_wrapper{
+        max-width: 65rem;
+    }
+    
+}
+
+@media (min-width: 1040px){
+    
+    .main_wrapper{
+        max-width: 120rem;
+    }
+    .main_content{
+        gap: 4rem;
+    }
+}
+
