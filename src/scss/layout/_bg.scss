@@ -3,6 +3,7 @@
 .bg_cont{
     width: 100%;
     height: 130vh;
+    min-height: 100rem;
     max-height: 150rem;
     
     position: absolute;
@@ -17,6 +18,5 @@
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 47%, rgba(11,29,38,1) 99%), url(../img/background.webp);
         height: 200vh;
         background-size: cover;
-
     }
 }
